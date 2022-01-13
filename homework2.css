@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #6c63ff;
+  --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  --text-align: center;
+}
+
+@media (max-width: 766px) {
+  h1,
+  p,
+  h2,
+  a {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+  }
+  #weather {
+    text-align: center;
+  }
+}
+
+body {
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+}
+
+.buttons a {
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+.yoga-button {
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+
+.weather-button {
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+.yogurt-button {
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+
+.contact-button,
+.yoga-button,
+.weather-button,
+.yogurt-button {
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about-button {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.homepage {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+}
+.my-email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.paragraphs {
+  display: flex;
+  margin: 30px;
+}
